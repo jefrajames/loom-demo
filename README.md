@@ -19,7 +19,7 @@ Examples of Virtual Threads (JEP 444).
 This project is made of 5 independant modules:
 
 * **loom-basic**: some basic examples using just Java SE
-. **web-injector**: a REST/HTTP injector used to test Helidon, Nima and Quarkus
-. **helidon-3-demo**: a demo using Helidon 3
-. **nima-demo**: a demo using Nima (Helidon 4) nativelly based on Virtual Threads
-. **quarkus-demo**: a demo using Quarkus 3.
+* **web-injector**: a REST/HTTP injector used to test Helidon, Nima and Quarkus
+* **helidon-3-demo**: a demo using Helidon 3
+* **nima-demo**: a demo using Nima (Helidon 4) nativelly based on Virtual Threads
+* **quarkus-demo**: a demo using Quarkus 3.

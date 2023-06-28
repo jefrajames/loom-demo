@@ -1,0 +1,14 @@
+loom:
+  threads: 10
+  repeats: 60_000
+  monitor:
+    period_seconds: 5
+    print-header: true
+    print-header-lines: 10
+  bench:
+    active: true
+    warmup: true
+  client:
+    connect-timeout-millis: 1000
+    read-timeout-millis: 2000
+    uri: http://localhost:8080/loom/quick
